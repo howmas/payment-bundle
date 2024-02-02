@@ -1,0 +1,10 @@
+howmas_payment_route_demo:
+    resource: "@HowMASPaymentBundle/src/Controller/Demo/*"
+    type: annotation
+    prefix: /howmas/demo
+
+howmas_payment_route:
+    resource: "@HowMASPaymentBundle/src/Controller/*"
+    type: annotation
+    prefix: /howmas/payment
+

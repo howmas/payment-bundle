@@ -1,0 +1,27 @@
+{
+  "name":"howmas/payment-bundle",
+  "description":"HowMAS Payment Bundle",
+  "keywords":[
+    "howmas", "payment", "vnpay"
+  ],
+  "homepage":"https://github.com/howmas/payment-bundle",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"HowMAS",
+      "email":"contact.howmas@gmail.com",
+      "role":"Owner"
+    }
+  ],
+  "require":{
+  },
+  "require-dev":{
+  },
+  "suggest":{
+  },
+  "autoload": {
+    "psr-4": {
+      "HowMAS\\PaymentBundle\\": "src/"
+    }
+  }
+}
